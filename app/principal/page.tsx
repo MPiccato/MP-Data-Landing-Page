@@ -2,6 +2,7 @@
 
 import LogoMP from "../../public/assets/MP-Logo.jpg"
 import Image from "next/image";
+import CarruselLandingPage from "../components/Carrusel";
 export default function PersonalWeb() {
  
 
@@ -13,6 +14,8 @@ export default function PersonalWeb() {
 
       {/* 2. HERO / SECCIÓN PRINCIPAL */}
       <main className="pt-32 pb-20 px-4 max-w-5xl mx-auto">
+
+        <CarruselLandingPage />
         
         {/* 3. SECCIÓN RECOMENDACIÓN DE LOGOS (LAYOUT APPLE PREMIUM) */}
         <section id="logos" className="mt-20 space-y-8">
